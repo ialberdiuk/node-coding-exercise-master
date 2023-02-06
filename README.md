@@ -8,6 +8,10 @@ Loadsh (isEqual) has been only used to remove the views. It makes sense to remov
 
 I would have loved unit test scenes (views) and fiels (objects) but it was a bit time consuming. Anyway, I managed to cover 97.72% of the lines and 100% of the functions according to Jest coverage.
 
+**Note**
+
+With more time I would have counted repeated fields of the JSON programmatically in the unit tests instead of hardcoding (total props deleted)
+
 npm i
 
 npm start
