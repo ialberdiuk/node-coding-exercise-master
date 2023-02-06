@@ -8,7 +8,7 @@ const mockObjects = require('./mocks/objects/objects.json')
 
 
 describe('testing-removed-duplicated-objects', () => {
-  test('it should remove two repeated objects as key property has been found twice in the array of objects', () => {
+  test('it should remove one repeated objects as key property has been found twice in the array of objects', () => {
     const originalLength = mockObjects.objects.length
     const response = findRepeatedObjects(mockObjects)
     // To have only one view as the repeated has been removed
