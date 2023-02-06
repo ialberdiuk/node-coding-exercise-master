@@ -72,7 +72,6 @@ const findRepeatedObjects = () => {
 };
 
 const removeRepeatedParams = () => {
-  console.log('Excellent, all duplicated fields/objects have been deleted and a new clean app JSON object can be in the root folder');
   const cleanApplicationJSON = JSON.stringify(findRepeatedViews(findRepeatedObjects()));
   fs.writeFileSync('./clean_application.json', cleanApplicationJSON);
   return cleanApplicationJSON;
