@@ -1,4 +1,4 @@
-## Application written in NODE JS to remove duplicated objetcs/fields from application Schema
+### Application written in NODE JS to remove duplicated objects/fields from their application JSON Schema
 
 **Assumptions**
 
