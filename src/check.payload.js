@@ -17,8 +17,6 @@ const findRepeatedViews = (mockObject) => {
   let arrScenes = mockObject?.versions[0]?.scenes;
 
   if (arrScenes && arrScenes.length > 1) {
-    // Sort array fields
-    arrScenes = sortArray(arrScenes);
     arrScenes.forEach((item) => {
       // The payload contains as much 2 scenes that is why I do not sort, neither iterate
       if (item?.views && item?.views.length === 2) {
